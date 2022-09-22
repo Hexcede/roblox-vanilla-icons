@@ -72,6 +72,8 @@
 	},
 	"fileNames": {
 		"package.json": "_rbx_packagelink",
+		"config.json": "_rbx_wrench_script",
+		"configuration.json": "_rbx_wrench_script",
 		"package-lock.json": "_rbx_rotate_lock",
 		"init.meta.json": "_rbx_laso_mono",
 
@@ -101,53 +103,117 @@
 		"components.lua": "_rbx_component_container",
 		"systems.lua": "_rbx_system_container",
 
-		".gitignore": "_rbx_wrench_mono",
-		".gitattributes": "_rbx_laso",
-		".vscodeignore": "_rbx_wrench"
+		".gitignore": "_rbx_model_container_x_mono",
+		".gitattributes": "_rbx_wrench_mono",
+		".vscodeignore": "_rbx_model_container_x"
 	},
 	"fileExtensions": {
 		"client.lua": "_rbx_client_script",
 		"server.lua": "_rbx_server_script",
 		"meta.json": "_rbx_plugs",
 		"model.json": "_rbx_model",
+
 		"project.json": "_rbx_wrench",
+
 		"rbxm": "_rbx_model",
 		"rbxmx": "_rbx_model",
 		"rbxl": "_rbx_globe",
 		"rbxlx": "_rbx_globe",
+		"mesh": "_rbx_mesh",
+
+		"vsix": "_rbx_packagelink_mono",
+
+		"zip": "_rbx_packagelink",
+		"tar": "_rbx_packagelink",
+		"gz": "_rbx_packagelink",
+		"7z": "_rbx_packagelink",
+		"rar": "_rbx_packagelink",
+		"rpm": "_rbx_packagelink",
+		"pkg": "_rbx_packagelink",
+		"deb": "_rbx_packagelink",
+		"apk": "_rbx_packagelink",
+
+		"lz4": "_rbx_box_shrink",
+		"lzma": "_rbx_box_shrink",
+		"zstd": "_rbx_box_shrink",
 
 		"mp4": "_rbx_video",
 		"mov": "_rbx_video",
+		"mkv": "_rbx_video",
+		"wmv": "_rbx_video",
 		"avi": "_rbx_video",
+		"flv": "_rbx_video",
 
 		"otf": "_rbx_text",
 		"ttf": "_rbx_text",
+		"fon": "_rbx_text",
+		"fnt": "_rbx_text",
 
 		"txt": "_rbx_text_inverted",
 		"csv": "_rbx_chat",
 		"qm": "_rbx_localization",
 
-		"mesh": "_rbx_mesh",
-
 		"mp3": "_rbx_audio_wav",
 		"wav": "_rbx_audio_wav",
 		"ogg": "_rbx_audio_wav",
+		"mid": "_rbx_audio_wav",
+		"midi": "_rbx_audio_wav",
 
 		"dds": "_rbx_texture",
+		"ico": "_rbx_texture",
+		"cur": "_rbx_texture",
+		"psd": "_rbx_texture",
+		"svg": "_rbx_texture",
 		"jpg": "_rbx_image_inverted",
 		"png": "_rbx_image_inverted",
+		"bmp": "_rbx_image_inverted",
+		"gif": "_rbx_image_inverted",
 
-		"html": "_rbx_link",
 		"lock": "_rbx_move_lock",
 
-		"js": "_rbx_server_script",
+		"dll": "_rbx_plug",
+		"so": "_rbx_plug",
+		"sys": "_rbx_plug",
+
+		"com": "_rbx_rocket",
+		"exe": "_rbx_rocket",
+		"jar": "_rbx_rocket",
+		"app": "_rbx_rocket",
+		"msi": "_rbx_rocket",
+
+		"tmp": "_rbx_box_shrink_x",
+
+		"bin": "_rbx_point_box",
+
 		"mjs": "_rbx_module_script"
 	},
 	"languageIds": {
+		"shellscript": "_rbx_rocket",
+		"bat": "_rbx_rocket",
+		"javascript": "_rbx_server_script",
+		"python": "_rbx_server_script",
+		"rust": "_rbx_server_script",
+		"go": "_rbx_server_script",
+		"c": "_rbx_server_script",
+		"cpp": "_rbx_server_script",
+		"csharp": "_rbx_server_script",
+		"java": "_rbx_server_script",
+		"ahk": "_rbx_server_script",
+		"php": "_rbx_server_script",
+		"html": "_rbx_link",
+		"css": "_rbx_component",
 		"lua": "_rbx_module_script",
 		"json": "_rbx_module_script",
 		"markdown": "_rbx_interface_container",
-		"plaintext": "_rbx_text_inverted"
+		"xml": "_rbx_plug",
+		"ini": "_rbx_plugs",
+		"toml": "_rbx_plugs",
+		"log": "_rbx_point_box_big",
+		"hlsl": "_rbx_texture",
+		"glsl": "_rbx_texture",
+		"plaintext": "_rbx_text_inverted",
+		"diff": "_rbx_point_box_big",
+		"http": "_rbx_point_box_big"
 	},
 	"iconDefinitions": {
 		"_rbx_generic": {
@@ -249,6 +315,10 @@
 		},
 		"_rbx_socket": {
 			"iconPath": "./explorer-icon-123.png"
+		},
+
+		"_rbx_hint": {
+			"iconPath": "./explorer-icon-64.png"
 		},
 
 		"_rbx_microphone": {
@@ -353,6 +423,12 @@
 		"_rbx_model_container": {
 			"iconPath": "./explorer-icon-122.png"
 		},
+		"_rbx_model_container_x": {
+			"iconPath": "./explorer-icon-127.png"
+		},
+		"_rbx_model_container_x_mono": {
+			"iconPath": "../monochrome/explorer-icon-127.png"
+		},
 		"_rbx_interface_container": {
 			"iconPath": "./explorer-icon-46.png"
 		},
@@ -413,6 +489,9 @@
 		},
 		"_rbx_box_shrink": {
 			"iconPath": "./explorer-icon-121.png"
+		},
+		"_rbx_box_shrink_x": {
+			"iconPath": "./explorer-icon-126.png"
 		},
 		"_rbx_physics_blocks": {
 			"iconPath": "./explorer-icon-30.png"

@@ -1,0 +1,481 @@
+{
+	"file": "_rbx_generic",
+	"folder": "_rbx_folder",
+	"rootFolder": "_rbx_universe",
+	"folderNames": {
+		"api_docs": "_rbx_docs",
+		"api_documentation": "_rbx_docs",
+		"api": "_rbx_docs",
+		"docs": "_rbx_docs",
+		"documentation": "_rbx_docs",
+
+		"lighting": "_rbx_lighting",
+		"terrain": "_rbx_terrain",
+		"players": "_rbx_player_scripts",
+
+		"server": "_rbx_server_container",
+		"client": "_rbx_client_container",
+		"local": "_rbx_client_container",
+		"shared": "_rbx_shared_container",
+		"common": "_rbx_shared_container",
+
+		"node_modules": "_rbx_packagelink_mono",
+		"packages": "_rbx_packagelink_mono",
+		"configs": "_rbx_configuration",
+
+		"teams": "_rbx_team_container",
+		"spawns": "_rbx_spawn_container",
+		"audio": "_rbx_audio_container",
+		"sounds": "_rbx_audio_container",
+		"sound": "_rbx_audio_container",
+		"avatar": "_rbx_player_edit",
+		"sky": "_rbx_cloud",
+		"fonts": "_rbx_chat_dots",
+		"compositing": "_rbx_mesh_container",
+		"textures": "_rbx_texture",
+		"heads": "_rbx_hat",
+		"qt_translations": "_rbx_localization",
+
+		"systems": "_rbx_system_container",
+		"components": "_rbx_component_container",
+
+		"scripts": "_rbx_script_container",
+		"modules": "_rbx_script_container",
+		"models": "_rbx_model_container",
+		"assets": "_rbx_model_container",
+		"meshes": "_rbx_mesh_container",
+		"effects": "_rbx_sparkles",
+		"images": "_rbx_image",
+		"localization": "_rbx_localization",
+		"locales": "_rbx_localization",
+		"locale": "_rbx_localization",
+		"tools": "_rbx_folder_wrench",
+
+		"interface": "_rbx_interface_container",
+		"ui": "_rbx_interface_container",
+		"menu": "_rbx_interface_container",
+
+		"remotes": "_rbx_remote_function",
+		"bindables": "_rbx_bindable_function",
+		"methods": "_rbx_bindable_function",
+		"events": "_rbx_bindable_event",
+
+		"commands": "_rbx_remote_event",
+		"debug": "_rbx_plug",
+
+		"tests": "_rbx_check",
+		"test": "_rbx_check",
+
+		"_index": "_rbx_folder_wrench",
+		".git": "_rbx_folder_wrench_mono",
+		".vscode": "_rbx_folder_wrench"
+	},
+	"fileNames": {
+		"package.json": "_rbx_packagelink",
+		"package-lock.json": "_rbx_rotate_lock",
+		"init.meta.json": "_rbx_laso_mono",
+
+		"wally.toml": "_rbx_universe_location",
+		"selene.toml": "_rbx_point_box",
+		"roblox.toml": "_rbx_point_box",
+		"aftman.toml": "_rbx_point_box_big",
+
+		"default.project.json": "_rbx_universe",
+
+		"Sky.model.json": "_rbx_sky",
+		"Sky.rbxm": "_rbx_sky",
+		"Sky.rbxmx": "_rbx_sky",
+		"Lighting.model.json": "_rbx_lighting",
+		"Lighting.rbxm": "_rbx_lighting",
+		"Lighting.rbxmx": "_rbx_lighting",
+		"Terrain.model.json": "_rbx_terrain",
+		"Terrain.rbxm": "_rbx_terrain",
+		"Terrain.rbxmx": "_rbx_terrain",
+		"Handle.model.json": "_rbx_block",
+		"Handle.rbxm": "_rbx_block",
+		"Handle.rbxmx": "_rbx_block",
+		"ThumbnailCamera.model.json": "_rbx_camera",
+		"ThumbnailCamera.rbxm": "_rbx_camera",
+		"ThumbnailCamera.rbxmx": "_rbx_camera",
+
+		"components.lua": "_rbx_component_container",
+		"systems.lua": "_rbx_system_container",
+
+		".gitignore": "_rbx_wrench_mono",
+		".gitattributes": "_rbx_laso",
+		".vscodeignore": "_rbx_wrench"
+	},
+	"fileExtensions": {
+		"client.lua": "_rbx_client_script",
+		"server.lua": "_rbx_server_script",
+		"meta.json": "_rbx_plugs",
+		"model.json": "_rbx_model",
+		"project.json": "_rbx_wrench",
+		"rbxm": "_rbx_model",
+		"rbxmx": "_rbx_model",
+		"rbxl": "_rbx_globe",
+		"rbxlx": "_rbx_globe",
+
+		"mp4": "_rbx_video",
+		"mov": "_rbx_video",
+		"avi": "_rbx_video",
+
+		"otf": "_rbx_text",
+		"ttf": "_rbx_text",
+
+		"txt": "_rbx_text_inverted",
+		"csv": "_rbx_chat",
+		"qm": "_rbx_localization",
+
+		"mesh": "_rbx_mesh",
+
+		"mp3": "_rbx_audio_wav",
+		"wav": "_rbx_audio_wav",
+		"ogg": "_rbx_audio_wav",
+
+		"dds": "_rbx_texture",
+		"jpg": "_rbx_image_inverted",
+		"png": "_rbx_image_inverted",
+
+		"html": "_rbx_link",
+		"lock": "_rbx_move_lock",
+
+		"js": "_rbx_server_script",
+		"mjs": "_rbx_module_script"
+	},
+	"languageIds": {
+		"lua": "_rbx_module_script",
+		"json": "_rbx_module_script",
+		"markdown": "_rbx_interface_container",
+		"plaintext": "_rbx_text_inverted"
+	},
+	"iconDefinitions": {
+		"_rbx_generic": {
+			"iconPath": "./explorer-icon-0.png"
+		},
+
+		"_rbx_block": {
+			"iconPath": "./explorer-icon-1.png"
+		},
+		"_rbx_translucent_block": {
+			"iconPath": "./explorer-icon-72.png"
+		},
+		"_rbx_link": {
+			"iconPath": "./explorer-icon-34.png"
+		},
+		"_rbx_check": {
+			"iconPath": "./explorer-icon-68.png"
+		},
+		"_rbx_plugs": {
+			"iconPath": "./explorer-icon-29.png"
+		},
+		"_rbx_plug": {
+			"iconPath": "./explorer-icon-81.png"
+		},
+		"_rbx_rocket": {
+			"iconPath": "./explorer-icon-14.png"
+		},
+		"_rbx_camera": {
+			"iconPath": "./explorer-icon-5.png"
+		},
+		"_rbx_cloud": {
+			"iconPath": "./explorer-icon-28.png"
+		},
+		"_rbx_cloud_white": {
+			"iconPath": "./explorer-icon-59.png"
+		},
+		"_rbx_texture": {
+			"iconPath": "./explorer-icon-10.png"
+		},
+		"_rbx_fire": {
+			"iconPath": "./explorer-icon-61.png"
+		},
+		"_rbx_explosion": {
+			"iconPath": "./explorer-icon-36.png"
+		},
+		"_rbx_seat": {
+			"iconPath": "./explorer-icon-35.png"
+		},
+		"_rbx_chat": {
+			"iconPath": "./explorer-icon-33.png"
+		},
+		"_rbx_chat_exclamation": {
+			"iconPath": "./explorer-icon-62.png"
+		},
+		"_rbx_chat_dots": {
+			"iconPath": "./explorer-icon-63.png"
+		},
+		"_rbx_terrain": {
+			"iconPath": "./explorer-icon-65.png"
+		},
+		"_rbx_player_edit": {
+			"iconPath": "./explorer-icon-104.png"
+		},
+		"_rbx_packagelink": {
+			"iconPath": "./explorer-icon-98.png"
+		},
+		"_rbx_packagelink_mono": {
+			"iconPath": "../monochrome/explorer-icon-98.png"
+		},
+		"_rbx_model": {
+			"iconPath": "./explorer-icon-2.png"
+		},
+		"_rbx_server_script": {
+			"iconPath": "./explorer-icon-6.png"
+		},
+		"_rbx_client_script": {
+			"iconPath": "./explorer-icon-18.png"
+		},
+		"_rbx_module_script": {
+			"iconPath": "./explorer-icon-76.png"
+		},
+		"_rbx_configuration": {
+			"iconPath": "./explorer-icon-58.png"
+		},
+		"_rbx_folder": {
+			"iconPath": "./explorer-icon-77.png"
+		},
+		"_rbx_highlight": {
+			"iconPath": "./explorer-icon-133.png"
+		},
+		"_rbx_align": {
+			"iconPath": "./explorer-icon-134.png"
+		},
+		"_rbx_click": {
+			"iconPath": "./explorer-icon-41.png"
+		},
+		"_rbx_button": {
+			"iconPath": "./explorer-icon-124.png"
+		},
+		"_rbx_socket": {
+			"iconPath": "./explorer-icon-123.png"
+		},
+
+		"_rbx_microphone": {
+			"iconPath": "./explorer-icon-114.png"
+		},
+		"_rbx_microphone_block": {
+			"iconPath": "./explorer-icon-115.png"
+		},
+		"_rbx_microphone_sphere": {
+			"iconPath": "./explorer-icon-116.png"
+		},
+
+		"_rbx_box_configure": {
+			"iconPath": "./explorer-icon-26.png"
+		},
+		"_rbx_point_box": {
+			"iconPath": "./explorer-icon-4.png"
+		},
+		"_rbx_point_box_big": {
+			"iconPath": "./explorer-icon-3.png"
+		},
+
+		"_rbx_globe": {
+			"iconPath": "./explorer-icon-19.png"
+		},
+		"_rbx_universe": {
+			"iconPath": "./explorer-icon-8.png"
+		},
+		"_rbx_universe_location": {
+			"iconPath": "./explorer-icon-92.png"
+		},
+		"_rbx_pathfinding": {
+			"iconPath": "./explorer-icon-128.png"
+		},
+
+		"_rbx_wrench": {
+			"iconPath": "./explorer-icon-17.png"
+		},
+		"_rbx_wrench_script": {
+			"iconPath": "./explorer-icon-22.png"
+		},
+		"_rbx_folder_wrench": {
+			"iconPath": "./explorer-icon-20.png"
+		},
+
+		"_rbx_server_container": {
+			"iconPath": "./explorer-icon-71.png"
+		},
+		"_rbx_shared_container": {
+			"iconPath": "./explorer-icon-70.png"
+		},
+		"_rbx_client_container": {
+			"iconPath": "./explorer-icon-79.png"
+		},
+
+		"_rbx_team_container": {
+			"iconPath": "./explorer-icon-23.png"
+		},
+		"_rbx_team": {
+			"iconPath": "./explorer-icon-24.png"
+		},
+
+		"_rbx_spawn_container": {
+			"iconPath": "./explorer-icon-25.png"
+		},
+		"_rbx_spawn": {
+			"iconPath": "./explorer-icon-25.png"
+		},
+
+		"_rbx_player": {
+			"iconPath": "./explorer-icon-12.png"
+		},
+		"_rbx_player_scripts": {
+			"iconPath": "./explorer-icon-21.png"
+		},
+		"_rbx_lighting": {
+			"iconPath": "./explorer-icon-13.png"
+		},
+
+		"_rbx_bindable_function": {
+			"iconPath": "./explorer-icon-66.png"
+		},
+		"_rbx_bindable_event": {
+			"iconPath": "./explorer-icon-67.png"
+		},
+		"_rbx_remote_function": {
+			"iconPath": "./explorer-icon-74.png"
+		},
+		"_rbx_remote_event": {
+			"iconPath": "./explorer-icon-75.png"
+		},
+
+		"_rbx_component": {
+			"iconPath": "./explorer-icon-93.png"
+		},
+		"_rbx_component_container": {
+			"iconPath": "./explorer-icon-87.png"
+		},
+		"_rbx_system_container": {
+			"iconPath": "./explorer-icon-113.png"
+		},
+		"_rbx_model_container": {
+			"iconPath": "./explorer-icon-122.png"
+		},
+		"_rbx_interface_container": {
+			"iconPath": "./explorer-icon-46.png"
+		},
+		"_rbx_script_container": {
+			"iconPath": "./explorer-icon-78.png"
+		},
+
+		"_rbx_audio_container": {
+			"iconPath": "./explorer-icon-31.png"
+		},
+		"_rbx_audio_box": {
+			"iconPath": "./explorer-icon-85.png"
+		},
+		"_rbx_audio": {
+			"iconPath": "./explorer-icon-1.png"
+		},
+		"_rbx_audio_wav": {
+			"iconPath": "./explorer-icon-84.png"
+		},
+		"_rbx_mesh": {
+			"iconPath": "./explorer-icon-73.png"
+		},
+		"_rbx_mesh_container": {
+			"iconPath": "./explorer-icon-130.png"
+		},
+		"_rbx_sparkles": {
+			"iconPath": "./explorer-icon-42.png"
+		},
+		"_rbx_sparkles_emitter": {
+			"iconPath": "./explorer-icon-80.png"
+		},
+
+		"_rbx_image": {
+			"iconPath": "./explorer-icon-52.png"
+		},
+		"_rbx_image_inverted": {
+			"iconPath": "./explorer-icon-49.png"
+		},
+		"_rbx_text": {
+			"iconPath": "./explorer-icon-51.png"
+		},
+		"_rbx_text_inverted": {
+			"iconPath": "./explorer-icon-50.png"
+		},
+
+		"_rbx_video": {
+			"iconPath": "./explorer-icon-120.png"
+		},
+		"_rbx_video_1": {
+			"iconPath": "./explorer-icon-60.png"
+		},
+		"_rbx_video_2": {
+			"iconPath": "./explorer-icon-120.png"
+		},
+
+		"_rbx_expand": {
+			"iconPath": "./explorer-icon-37.png"
+		},
+		"_rbx_box_shrink": {
+			"iconPath": "./explorer-icon-121.png"
+		},
+		"_rbx_physics_blocks": {
+			"iconPath": "./explorer-icon-30.png"
+		},
+
+		"_rbx_sunglasses": {
+			"iconPath": "./explorer-icon-32.png"
+		},
+		"_rbx_tshirt": {
+			"iconPath": "./explorer-icon-40.png"
+		},
+		"_rbx_shirt": {
+			"iconPath": "./explorer-icon-43.png"
+		},
+		"_rbx_pants": {
+			"iconPath": "./explorer-icon-44.png"
+		},
+		"_rbx_hat": {
+			"iconPath": "./explorer-icon-45.png"
+		},
+
+		"_rbx_laso": {
+			"iconPath": "./explorer-icon-57.png"
+		},
+		"_rbx_flag": {
+			"iconPath": "./explorer-icon-38.png"
+		},
+		"_rbx_flagstand": {
+			"iconPath": "./explorer-icon-39.png"
+		},
+
+		"_rbx_laso_mono": {
+			"iconPath": "../monochrome/explorer-icon-57.png"
+		},
+		"_rbx_wrench_mono": {
+			"iconPath": "../monochrome/explorer-icon-17.png"
+		},
+		"_rbx_folder_wrench_mono": {
+			"iconPath": "../monochrome/explorer-icon-17.png"
+		},
+
+		"_rbx_server_barrier": {
+			"iconPath": "./explorer-icon-15.png"
+		},
+		"_rbx_client_barrier": {
+			"iconPath": "./explorer-icon-16.png"
+		},
+		"_rbx_localization": {
+			"iconPath": "./explorer-icon-97.png"
+		},
+
+		"_rbx_docs": {
+			"iconPath": "./explorer-icon-129.png"
+		},
+		"_rbx_move_lock": {
+			"iconPath": "./explorer-icon-99.png"
+		},
+		"_rbx_rotate_lock": {
+			"iconPath": "./explorer-icon-100.png"
+		},
+
+		"_rbx_cloud_save_nice": {
+			"iconPath": "./explorer-icon-69.png"
+		}
+	}
+}

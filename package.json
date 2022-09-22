@@ -1,0 +1,35 @@
+{
+	"name": "roblox-vanilla-icons",
+	"private": true,
+	"displayName": "Vanilla 2.1 Icons (For Roblox/Rojo projects)",
+	"description": "An adaptation of Eltobb's wonderful Vanilla 2.1 Icons for Rojo & Roblox projects inside of VSCode. The Vanilla icon set was created by Elttob for use in Roblox Studio. They are licensed under `CC BY-NC 4.0`. You should check out Eltobb's website for these icons at https://eltobb.uk/Vanilla!",
+	"license": "CC BY-NC 4.0",
+	"version": "0.0.0",
+	"engines": {
+		"vscode": "*"
+	},
+	"contributes": {
+		"iconThemes": [
+			{
+				"id": "vanilla-icons-colorful-dark",
+				"label": "Vanilla Dark Graphite (Colourful)",
+				"path": "./icons/dark/colorful/icons.json"
+			},
+			{
+				"id": "vanilla-icons-monochrome-dark",
+				"label": "Vanilla Dark Graphite (Monochrome)",
+				"path": "./icons/dark/monochrome/icons.json"
+			},
+			{
+				"id": "vanilla-icons-colorful-light",
+				"label": "Vanilla Light Platinum (Colourful)",
+				"path": "./icons/light/colorful/icons.json"
+			},
+			{
+				"id": "vanilla-icons-monochrome-light",
+				"label": "Vanilla Light Platinum (Monochrome)",
+				"path": "./icons/light/monochrome/icons.json"
+			}
+		]
+	}
+}
